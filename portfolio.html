@@ -9,31 +9,103 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <title>Portfolio</title>
 </head>
 
 <body>
-    <h1 class="d-flex flex-column" id="name">Bhaskar Tripathi</h1>
-    <ul class="nav justify-content-end">
-            
-            <li class="nav-item">
-                <a class="nav-link active" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">|</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">|</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-        </ul>
-    
-    <div class="main-content">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-0 justify-content-center page-head ">
+        <div class="row w-75">
+            <div class=" px-4 my-0 d-flex justify-content-start h1" id="name">Bhaskar Tripathi
+
+            </div>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
+                <ul class="nav ">
+
+                    <li class="nav-item">
+                        <a class="nav-link active nav-link-cust" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active nav-link-cust" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">|</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active nav-link-cust" href="contact.html">Contact</a>
+                    </li>
+            </div>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container px-0 w-75 mt-2 mb-5">
+        <div class="row mx-2 page-content justify-content-center">
+            <div class="col-12 px-5 m-3">
+                <div class="row">
+                    <p class="h1 heading-text">Portfolio
+                    </p>
+                </div>
+                <div class="row ">
+                    <hr class="col-12 px-0">
+                </div>
+                <div class="row ">
+
+                    <div class="card p-0 text-white col-lg-4 col-md-5 col-sm-12 rounded-0 mr-4 mb-4">
+                        <img src="assets/images/hangman.jpg" class="card-img rounded-0" alt="portfolio image">
+                        <div class="card-img-overlay justify-content-center p-0 d-flex flex-column">
+                            <h5 class="card-title portfolio-title mt-auto">Hangman</h5>
+                        </div>
+                    </div>
+
+                    <div class="card p-0 text-white col-lg-4 col-md-5 col-sm-12 rounded-0 mr-4 mb-4">
+                        <img src="assets/images/rpg.jpg" class="card-img rounded-0" alt="portfolio image">
+                        <div class="card-img-overlay justify-content-center p-0 d-flex flex-column">
+                            <h5 class="card-title portfolio-title mt-auto">RPG Game</h5>
+                        </div>
+                    </div>
+
+                    <div class="card p-0 text-white col-lg-4 col-md-5 col-sm-12 rounded-0 mr-4 mb-4">
+                        <img src="assets/images/trivia.jpg" class="card-img rounded-0" alt="portfolio image">
+                        <div class="card-img-overlay justify-content-center p-0 d-flex flex-column">
+                            <h5 class="card-title portfolio-title mt-auto">Trivia Game</h5>
+                        </div>
+                    </div>
+
+                    <div class="card p-0 text-white col-lg-4 col-md-5 col-sm-12 rounded-0 mr-4 mb-4">
+                        <img src="assets/images/riw.jpg" class="card-img rounded-0" alt="portfolio image">
+                        <div class="card-img-overlay justify-content-center p-0 d-flex flex-column">
+                            <h5 class="card-title portfolio-title mt-auto">Rutgers Info Widget</h5>
+                        </div>
+                    </div>
+
+                    <div class="card p-0 text-white col-lg-4 col-md-5 col-sm-12 rounded-0 mr-4 mb-4">
+                        <img src="assets/images/rps.jpg" class="card-img rounded-0" alt="portfolio image">
+                        <div class="card-img-overlay justify-content-center p-0 d-flex flex-column">
+                            <h5 class="card-title portfolio-title mt-auto">Rock Paper Scissors</h5>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="row mt-4"></div>
+
+    </div>
+
+    <!-- <div class="main-content">
         <h1 class="heading-text">Portfolio</h1>
         <hr />
         <div class="summary portfolios">
@@ -61,10 +133,11 @@
                 </div>
 
         </div>
-    </div>
-    <div class="footer">
-        <p class="footer-content">Copyright&copy;</p>
-    </div>
+    </div> -->
+
+    <nav class="navbar fixed-bottom justify-content-center nav-foot ">
+        <p class="footer-content mt-3 pb-0">Copyright&copy;</p>
+    </nav>
 </body>
 
 </html>
