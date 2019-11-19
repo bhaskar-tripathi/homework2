@@ -1,4 +1,3 @@
-
 body {
     margin: 0 auto;
     background-image: url("../images/bg-pattern.png");
@@ -40,7 +39,7 @@ body {
     background-color: #666666;
     border-top: 5px solid #4aaaa5 ;
     color: #cccccc;
-    
+
 }
 .footer-content {
     bottom: 0;
@@ -53,6 +52,27 @@ body {
     line-height: 2em;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     text-align: center;
+}
+@media (max-width: 500px) {
+    body .container {
+        /* width: 940px; */
+        width: 100%;
+        padding: 0px;
+        /* justify-content: center; */
+    }
+    body .navbar {
+        padding: 0;
+        /* width: 100%; */
+    }
+    body .row {
+        padding: 0;
+        margin: 0;
+        /* justify-content: center; */
+    }
+    #name {
+        width: 100%;
+        justify-content: center;
+    }
 }
 /* 
 header {
